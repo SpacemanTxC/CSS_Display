@@ -1,0 +1,38 @@
+h1 {
+    background-color: lightcoral;
+    max-width: 50%;
+    height: 100px;
+    margin: 2em;
+}
+
+/* a {
+    background-color: lightseagreen;
+    width: 300px;
+    height: 300px;
+    margin: 2em;
+    display:block;
+} */
+
+#container {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#container section {
+    box-sizing: border-box;
+    width: 400px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+nav: {
+    background-color:#eeee;
+    display:flex;
+    justify-content: center;
+
+}
+nav a {
+    font-size: 1em;
+    margin: 1em;
+}
